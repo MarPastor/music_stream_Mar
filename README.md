@@ -1,52 +1,53 @@
 
-# 🎧 Proyecto MusicStream 
+# 🎧 MusicStream Project
 
-## Descripción General
+## General Description
 
-Stream Music es un proyecto de análisis de datos musicales cuyo objetivo es extraer información proveniente la APIs Spotify y Last.fm para explorar el comportamiento de los oyentes, tendencias de géneros musicales, artistas y canciones entre 2020 y 2022. 
-Este proyecto se divide en cuatro fases principales: extracción de datos, modelado de base de datos, análisis mediante SQL y visualización de resultados.
+Stream Music is a music data analytics project, extracting information from the Spotify and Last.fm APIs to explore listener behavior and trends in music genres, artists, and songs between 2020 and 2022
 
----
-
-## Fase 1: Extracción de Datos
-
-En esta fase se lleva a cabo la recopilación de información desde fuentes externas:
-
-- API de Spotify: Se extrae información relevante sobre artistas, canciones, géneros musicales, tipo (canción o álbum), nombre de la canción, año de lanzamiento, etc.
-
-- API de Last.fm: Se obtiene información complementaria como biografías de artistas, popularidad y estadisticas de reproducción, artistas similares, etc.
-
-- Almacenamiento: Los datos recopilados son procesados y almacenados en archivos CSV estructurados, que servirán como fuente para la posterior carga en la base de datos.
+This project is divided into four main phases: data extraction, database modeling, SQL analysis, and results visualization
 
 ---
 
-## Fase 2: Modelado de Base de Datos
+## Phase 1: Data Extraction
 
-Esta fase comprende la modelización y carga de los datos:
+In this phase, information is collected from external sources:
 
-- Diseño del modelo relacional: Se definen las entidades principales (artistas, canciones, géneros, años, etc.) y sus relaciones.
+- Spotify API: Relevant information is extracted about artists, songs, musical genres, type (song or album), song name, release year, etc.
 
-- Creación de la base de datos: Implementación del modelo de manera automatico en lenguaje Python.
+- Last.fm API: Additional information is obtained such as artist biographies, popularity and streaming statistics, similar artists, etc.
 
-- Carga de datos: Inserción de los datos provenientes de los archivos CSV en las tablas correspondientes usando Python.
-
----
-
-## Fase 3: Análisis de Datos (Consultas SQL)
-
-El objetivo de esta fase fue extraer conocimiento útil a partir de los datos almacenados. Se desarrollaron diversas consultas para responder preguntas generales y específicas del comportamiento musical:
-
-### Ejemplos de consultas:
-
-¿Cuál es el artista más popular y a qué género pertenece?
-![Texto alternativo](resources/query2.png)
-
-¿Cuántas canciones y artistas tenemos en nuestra BBDD? 
-![Texto alternativo](resources/query1.png)
+- Storage: The collected data is processed and stored in structured CSV files, which will serve as a source for subsequent upload to the database
 
 ---
 
-## Fase 4: Presentación Visual (Demo)
+## Phase 2: Database Modeling
+
+This phase includes data modeling and loading:
+
+- Relational model design: The main entities (artists, songs, genres, years, etc.) and their relationships are defined
+
+- Database creation: The model is automatically implemented in Python
+
+- Data loading: Inserting data from the CSV files into the corresponding tables using Python
+
+---
+
+## Phase 3: Data Analysis (SQL Queries)
+
+The objective of this phase was to extract useful knowledge from the stored data. Various queries were developed to answer general and specific questions about musical behavior:
+
+### Examples of queries:
+
+Who is the most popular artist and what genre does he belong to?
+![Alternative text](02.%20resources/query2.png)
+
+How many songs and artists do we have in our database?
+![Alternative text](02.%20resources/query1.png)
+
+---
+
+## Phase 4: Visual Presentation (Demo)
 
 La última fase consistió en una presentación visual de los resultados obtenidos, creada en unas diapositivas, donde se resumen los hallazgos más relevantes mediante un diagrama, tablas y visualizaciones de imagenes que facilitan la comprensión del análisis realizado.
 
