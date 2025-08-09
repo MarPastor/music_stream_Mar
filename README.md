@@ -40,20 +40,20 @@ The objective of this phase was to extract useful knowledge from the stored data
 ### Examples of queries:
 
 Who is the most popular artist and what genre does he belong to?
-![Alternative text](02.%20resources/query2.png)
+![Alternative text](02_resources/query2.png)
 
 How many songs and artists do we have in our database?
-![Alternative text](02.%20resources/query1.png)
+![Alternative text](02_resources/query1.png)
 
 ---
 
 ## Phase 4: Visual Presentation (Demo)
 
-La última fase consistió en una presentación visual de los resultados obtenidos, creada en unas diapositivas, donde se resumen los hallazgos más relevantes mediante un diagrama, tablas y visualizaciones de imagenes que facilitan la comprensión del análisis realizado.
+The final phase consisted of a visual presentation of the results obtained, created in slides, where the most relevant findings are summarized through a diagram, tables, and image visualizations that facilitate understanding of the analysis performed
 
 ---
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) 
@@ -62,40 +62,39 @@ La última fase consistió en una presentación visual de los resultados obtenid
 
 ---
 
-## Instrucciones de uso
+## Instructions for use
 
-1. Clona el repositorio
-2. Ejecuta el archivo principal: `proyect_cozymusic.ipynb`
-3. Sigue las instrucciones en el archivo para la extracción de datos, creación de los archivos CSV, para la creacióon de la BBDD y realizar las consultas a MySQL.
-4. Crea nuevas consultas para conocer más sobre las canciones y artistas de la BBDD.
+1. Clone the repository
+2. Run the main file: `project_cozymusic.ipynb`
+3. Follow the instructions in the file to extract data, create CSV files, create the database, and perform MySQL queries
+4. Create new queries to learn more about the songs and artists in the database
 
 ---
 
-## Estructura del repositorio
+## Repository structure
+
 ```
-da-project-promo-54-modulo-2-team-2/
+music_stream_Mar
 
 ├── README.md
-│ 
-├── data/
-│   ├── artist_data.csv
-│   ├── artist.csv
-│   ├── similar_artist_data.csv
-│   └── songs.csv
-│ 
-├── notebooks/
+├── 01_notebooks/
 │   └── project_cozymusic.ipynb
-│ 
-├── resources/
+├── 02_resources/
 │   ├── cozy_diagram_v.PNG
 │   ├── cozy_diagram.PNG
 │   ├── query1.PNG
 │   └── query2.PNG
+└── 03_data/
+    ├── artist_data.csv
+    ├── artist.csv
+    ├── similar_artist_data.csv
+    └── songs.csv
+
 ```
 
 ---
 
-## Autoras
+## Authors
 
 [Andreina Teixeira](https://github.com/AndreinaTeixeira)
 
@@ -109,14 +108,16 @@ da-project-promo-54-modulo-2-team-2/
 
 ---
 
-## Estado del proyecto
+## Project status
 
-    Version beta finalizada
+Completed
+
 ---
 
-## Capturas de pantalla
+## Screenshots
 
-- Diagrama
+- Diagram
 
-![Texto alternativo](resources/cozy_diagram.PNG)
+![Alternative text](resources/cozy_diagram.PNG)
+
 ---
