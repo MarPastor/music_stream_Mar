@@ -37,14 +37,6 @@ This phase includes data modeling and loading:
 
 The objective of this phase was to extract useful knowledge from the stored data. Various queries were developed to answer general and specific questions about musical behavior:
 
-### Examples of queries:
-
-Who is the most popular artist and what genre does he belong to?
-![Alternative text](02_resources/query2.png)
-
-How many songs and artists do we have in our database?
-![Alternative text](02_resources/query1.png)
-
 ---
 
 ## Phase 4: Visual Presentation (Demo)
@@ -111,13 +103,5 @@ music_stream_Mar
 ## Project status
 
 Completed
-
----
-
-## Screenshots
-
-- Diagram
-
-![Alternative text](resources/cozy_diagram.PNG)
 
 ---
