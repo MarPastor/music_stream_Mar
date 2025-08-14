@@ -74,6 +74,7 @@ music_stream_Mar
 ├── 02_resources/
 │   ├── cozy_diagram_v.PNG
 │   ├── cozy_diagram.PNG
+│   ├── db_cozy_musical.sql
 │   ├── query1.PNG
 │   └── query2.PNG
 └── 03_data/
